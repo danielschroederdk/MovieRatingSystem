@@ -1,0 +1,61 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRatingSystem.Core", "MovieRatingSystem.Core\MovieRatingSystem.Core.csproj", "{6F2B593E-1268-428A-B5EC-CF532BC1E2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRatingSystem.Core.Entity", "MovieRatingSystem.Core.Entity\MovieRatingSystem.Core.Entity.csproj", "{8409E048-1E22-46A2-BE90-F95E386F12D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BCF6DDD2-5B50-4A86-865E-632DDFFC7A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F42F9F80-F75A-4936-90B3-25943D691980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{21E097D0-D7AD-4158-9BC5-A2796F567043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTests", "PerformanceTests\PerformanceTests.csproj", "{28C1A969-1172-42A9-A753-FCAA04CF5311}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D2B56600-BF8C-4959-A084-FA8ED90F6279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRatingSystem.Infrastructure.JSON", "MovieRatingSystem.Infrastructure.JSON\MovieRatingSystem.Infrastructure.JSON.csproj", "{13CFC49A-B86E-44FC-8719-B40A0ECEF004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceTest", "PerformanceTest\PerformanceTest.csproj", "{72C1B5F5-8884-44CA-88C5-AEB3437DD542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F2B593E-1268-428A-B5EC-CF532BC1E2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F2B593E-1268-428A-B5EC-CF532BC1E2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F2B593E-1268-428A-B5EC-CF532BC1E2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F2B593E-1268-428A-B5EC-CF532BC1E2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8409E048-1E22-46A2-BE90-F95E386F12D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8409E048-1E22-46A2-BE90-F95E386F12D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8409E048-1E22-46A2-BE90-F95E386F12D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8409E048-1E22-46A2-BE90-F95E386F12D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21E097D0-D7AD-4158-9BC5-A2796F567043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21E097D0-D7AD-4158-9BC5-A2796F567043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21E097D0-D7AD-4158-9BC5-A2796F567043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21E097D0-D7AD-4158-9BC5-A2796F567043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C1A969-1172-42A9-A753-FCAA04CF5311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C1A969-1172-42A9-A753-FCAA04CF5311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C1A969-1172-42A9-A753-FCAA04CF5311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C1A969-1172-42A9-A753-FCAA04CF5311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CFC49A-B86E-44FC-8719-B40A0ECEF004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CFC49A-B86E-44FC-8719-B40A0ECEF004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CFC49A-B86E-44FC-8719-B40A0ECEF004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CFC49A-B86E-44FC-8719-B40A0ECEF004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C1B5F5-8884-44CA-88C5-AEB3437DD542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C1B5F5-8884-44CA-88C5-AEB3437DD542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C1B5F5-8884-44CA-88C5-AEB3437DD542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C1B5F5-8884-44CA-88C5-AEB3437DD542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F2B593E-1268-428A-B5EC-CF532BC1E2BC} = {BCF6DDD2-5B50-4A86-865E-632DDFFC7A29}
+		{8409E048-1E22-46A2-BE90-F95E386F12D8} = {BCF6DDD2-5B50-4A86-865E-632DDFFC7A29}
+		{21E097D0-D7AD-4158-9BC5-A2796F567043} = {F42F9F80-F75A-4936-90B3-25943D691980}
+		{28C1A969-1172-42A9-A753-FCAA04CF5311} = {F42F9F80-F75A-4936-90B3-25943D691980}
+		{13CFC49A-B86E-44FC-8719-B40A0ECEF004} = {D2B56600-BF8C-4959-A084-FA8ED90F6279}
+		{72C1B5F5-8884-44CA-88C5-AEB3437DD542} = {F42F9F80-F75A-4936-90B3-25943D691980}
+	EndGlobalSection
+EndGlobal
