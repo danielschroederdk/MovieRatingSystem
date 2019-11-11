@@ -5,5 +5,5 @@ dotnet: 2.2
 install:
 - dotnet restore
 script:
-- dotnet build
+- dotnet build /UnitTests/UnitTests.csproj
 - dotnet test
